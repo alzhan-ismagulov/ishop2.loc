@@ -1,11 +1,9 @@
 <?php
 
-
 namespace ishop;
 
+class Registry {
 
-class Registry
-{
     use TSingletone;
 
     protected static $properties = [];
@@ -15,7 +13,7 @@ class Registry
     }
 
     public function getProperty($name){
-        if(!isset(self::$properties[$name])){
+        if(isset(self::$properties[$name])){
             return self::$properties[$name];
         }
         return null;
@@ -24,4 +22,5 @@ class Registry
     public function getProperties(){
         return self::$properties;
     }
+
 }
