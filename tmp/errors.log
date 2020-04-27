@@ -72,3 +72,15 @@
 =================
 [2020-04-27 15:16:31] Текст ошибки: Call to undefined method ishop\App::getProperty() | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\MainController.php | Строка: 14
 =================
+[2020-04-27 16:19:06] Текст ошибки: Call to undefined method app\controllers\pageController::getView() | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32
+=================
+[2020-04-27 16:19:46] Текст ошибки: Call to undefined method app\controllers\pageController::getView() | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32
+=================
+[2020-04-27 16:36:03] Текст ошибки: Call to undefined method app\controllers\pageController::getView() | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32
+=================
+[2020-04-28 02:38:56] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Page/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 46
+=================
+[2020-04-28 02:38:59] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Page/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 46
+=================
+[2020-04-28 02:39:32] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Page/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 46
+=================

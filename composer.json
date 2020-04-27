@@ -5,5 +5,8 @@
       "app\\": "app"
     }
   },
+  "require": {
+    "gabordemooij/redbean": "dev-master"
+  },
   "require": {}
 }

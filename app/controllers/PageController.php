@@ -4,7 +4,7 @@
 namespace app\controllers;
 
 
-class pageController
+class pageController extends AppController
 {
     public function viewAction()
     {
