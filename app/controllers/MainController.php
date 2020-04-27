@@ -7,8 +7,11 @@ use ishop\base\Controller;
 
 class MainController extends AppController
 {
+//    public $layout = 'test';
+
     public function indexAction()
     {
-        echo __METHOD__;
+        $this->layout = 'default';
+//        echo __METHOD__;
     }
 }
