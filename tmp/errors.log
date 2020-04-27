@@ -66,3 +66,9 @@
 =================
 [2020-04-27 14:35:03] Текст ошибки: Не найден шаблон default | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 52
 =================
+[2020-04-27 15:14:07] Текст ошибки: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\MainController.php | Строка: 13
+=================
+[2020-04-27 15:16:18] Текст ошибки: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\MainController.php | Строка: 13
+=================
+[2020-04-27 15:16:31] Текст ошибки: Call to undefined method ishop\App::getProperty() | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\MainController.php | Строка: 14
+=================
