@@ -96,3 +96,17 @@
 =================
 [2020-04-29 03:21:50] Текст ошибки: syntax error, unexpected '=' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php | Строка: 232
 =================
+[2020-04-30 01:29:13] Текст ошибки: Class 'ishop\base\View' not found | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\Controller.php | Строка: 27
+=================
+[2020-04-30 01:29:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 49
+=================
+[2020-04-30 01:29:20] Текст ошибки: Class 'ishop\base\View' not found | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\Controller.php | Строка: 27
+=================
+[2020-04-30 02:26:45] Текст ошибки: Class 'ishop\base\View' not found | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\Controller.php | Строка: 27
+=================
+[2020-04-30 18:22:02] Текст ошибки: Class 'ishop\base\View' not found | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\Controller.php | Строка: 27
+=================
+[2020-04-30 18:37:48] Текст ошибки: syntax error, unexpected end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Main\index.php | Строка: 157
+=================
+[2020-04-30 18:37:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 49
+=================
