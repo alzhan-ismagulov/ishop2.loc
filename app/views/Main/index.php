@@ -16,18 +16,19 @@
     <div class="clearfix"> </div>
 </div>
 <!--banner-ends-->
+
 <!--about-starts-->
 <?php if($brands): ?>
 <div class="about">
     <div class="container">
         <div class="about-top grid-1">
-            <?php foreach ($brands as $brand) : ?>
-            <div class="col-md-4 about-left">
+            <?php foreach($brands as $brand): ?>
+                <div class="col-md-4 about-left">
                 <figure class="effect-bubba">
-                    <img class="img-responsive" src="images/<?=$brand->img; ?>" alt=""/>
+                    <img class="img-responsive" src="images/<?=$brand->img;?>" alt=""/>
                     <figcaption>
-                        <h2><?=$brand->title; ?></h2>
-                        <p><?=$brand->description; ?></p>
+                        <h2><?=$brand->title;?></h2>
+                        <p><?=$brand->description;?></p>
                     </figcaption>
                 </figure>
             </div>
@@ -45,20 +46,17 @@
     <div class="container">
         <div class="product-top">
             <div class="product-one">
-                <?php foreach ($hits as $hit) : ?>
+            <?php foreach($hits as $hit): ?>
                 <div class="col-md-3 product-left">
                     <div class="product-main simpleCart_shelfItem">
-                        <a href="product/<?=$hit->alias; ?>" class="mask"><img class="img-responsive zoom-img"
-                                                                               src="images/<?=$hit->img; ?>" alt="" /></a>
+                        <a href="product/<?=$hit->alias;?>" class="mask"><img class="img-responsive zoom-img" src="images/<?=$hit->img;?>" alt="" /></a>
                         <div class="product-bottom">
-                            <h3><a href="product/<?=$hit->alias; ?>"><?=$hit->title; ?></a></h3>
+                            <h3><a href="product/<?=$hit->alias;?>"><?=$hit->title;?></a></h3>
                             <p>Explore Now</p>
-                            <h4><a class="add-to-cart-link" href="cart/add?id="<?php echo $hit->id; ?>""><i></i></a>
-                                <span class="item_price"><?php echo $curr['symbol_left']; ?><?php echo $hit->price *
-                                        $curr['value']; echo $curr['symbol_right']; ?></span>
+                            <h4>
+                                <a class="add-to-cart-link" href="cart/add?id=<?=$hit->id;?>"><i></i></a> <span class=" item_price"><?=$curr['symbol_left'];?><?=$hit->price * $curr['value'];?><?=$curr['symbol_right'];?></span>
                             <?php if($hit->old_price): ?>
-                                <small><del><?php echo $curr['symbol_left']; ?> <?=$hit->old_price * $curr['value'];
-                                ?><?php echo $curr['symbol_right']; ?></del></small>
+                                <small><del><?=$curr['symbol_left'];?><?=$hit->old_price * $curr['value'];?><?=$curr['symbol_right'];?></del></small>
                             <?php endif; ?>
                             </h4>
                         </div>
@@ -67,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <?php endforeach; ?>
+            <?php endforeach; ?>
                 <div class="clearfix"></div>
             </div>
         </div>

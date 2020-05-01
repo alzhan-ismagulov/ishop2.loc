@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <?php echo $this->getMeta(); ?>
+    <?=$this->getMeta();?>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!--Custom-Theme-files-->
     <!--theme-style-->
@@ -17,7 +17,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!--start-menu-->
     <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-   </head>
+</head>
 <body>
 <!--top-header-->
 <div class="top-header">
@@ -27,7 +27,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="drop">
                     <div class="box">
                         <select id="currency" tabindex="4" class="dropdown drop">
-                           <?php new \app\widgets\currency\Currency(); ?>
+                            <?php new \app\widgets\currency\Currency(); ?>
                         </select>
                     </div>
                     <div class="box1">
@@ -224,7 +224,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--bottom-header-->
 
 <div class="content">
-    <?=$content; ?>
+    <?=$content;?>
 </div>
 
 <!--information-starts-->
