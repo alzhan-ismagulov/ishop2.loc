@@ -110,3 +110,13 @@
 =================
 [2020-04-30 18:37:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 49
 =================
+[2020-05-01 02:24:13] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Main\index.php | Строка: 55
+=================
+[2020-05-01 02:25:03] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Main\index.php | Строка: 55
+=================
+[2020-05-01 02:26:36] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Main\index.php | Строка: 55
+=================
+[2020-05-01 02:28:58] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 49
+=================
+[2020-05-01 02:32:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 49
+=================
