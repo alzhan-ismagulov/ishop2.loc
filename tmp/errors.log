@@ -120,3 +120,21 @@
 =================
 [2020-05-01 02:32:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 49
 =================
+[2020-05-01 13:00:38] Текст ошибки: Class 'app\controllers\Currency' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php | Строка: 14
+=================
+[2020-05-01 13:01:43] Текст ошибки: Class 'app\controllers\Currency' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php | Строка: 14
+=================
+[2020-05-01 13:05:26] Текст ошибки: syntax error, unexpected 'debug' (T_STRING) | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php | Строка: 16
+=================
+[2020-05-01 13:08:32] Текст ошибки: syntax error, unexpected 'currencies' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php | Строка: 8
+=================
+[2020-05-01 13:10:24] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.cyrrency' doesn't exist | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 186
+=================
+[2020-05-01 13:29:42] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php on line 19 and exactly 2 expected | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
+[2020-05-01 13:32:26] Текст ошибки: Call to undefined function app\controllers\setcockie() | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php | Строка: 16
+=================
+[2020-05-01 13:33:05] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php on line 20 and exactly 2 expected | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
+[2020-05-01 13:35:46] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php on line 20 and exactly 2 expected | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
