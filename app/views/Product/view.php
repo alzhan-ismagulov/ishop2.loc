@@ -27,9 +27,9 @@
                                 <?php endforeach; ?>
                             </ul>
                         </div>
+                        <?php else: ?>
+                            <img src="images/<?=$product->img; ?>" alt="">
                         <?php endif; ?>
-                        <?php else : ?>
-                        <img src="images/<?=$product->img; ?>" alt="">
                         <!-- FlexSlider -->
 
                     </div>

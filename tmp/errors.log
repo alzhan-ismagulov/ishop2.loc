@@ -362,3 +362,7 @@
 =================
 [2020-05-04 17:18:30] Текст ошибки: Unsupported operand types | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 26
 =================
+[2020-05-04 17:28:30] Текст ошибки: syntax error, unexpected 'else' (T_ELSE), expecting end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Product\view.php | Строка: 31
+=================
+[2020-05-04 17:28:43] Текст ошибки: syntax error, unexpected 'else' (T_ELSE), expecting end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Product\view.php | Строка: 31
+=================

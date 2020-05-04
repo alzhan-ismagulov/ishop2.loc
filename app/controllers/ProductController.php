@@ -20,6 +20,7 @@ class ProductController extends AppController
 
         //запись в куки запрошенного товара
 
+
         //просмотренные товары
 
         //Галерея
