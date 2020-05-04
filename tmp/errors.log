@@ -370,3 +370,5 @@
 =================
 [2020-05-04 17:37:16] Текст ошибки: Call to undefined method app\models\Product::setAllRecentlyViewed() | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 25
 =================
+[2020-05-04 18:55:50] Текст ошибки: syntax error, unexpected ')' | Файл: C:\OSPanel\domains\ishop2.loc\app\models\Breadcrumbs.php | Строка: 19
+=================
