@@ -356,3 +356,9 @@
 =================
 [2020-05-04 16:37:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-05-04 17:16:39] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-04 17:18:17] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prduct_id' in 'where clause' | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 186
+=================
+[2020-05-04 17:18:30] Текст ошибки: Unsupported operand types | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 26
+=================

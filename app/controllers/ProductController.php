@@ -20,13 +20,14 @@ class ProductController extends AppController
 
         //запись в куки запрошенного товара
 
-        //проссмотренные товары
+        //просмотренные товары
 
         //Галерея
+        $gallery = \R::findAll('gallery', 'product_id = ?', [$product->id]);
 
         //модификации
 
         $this->setMeta($product->title, $product->description, $product->keywords);
-        $this->set(compact('product', 'related')); //Передача в вид
+        $this->set(compact('product', 'related', 'gallery')); //Передача в вид
     }
 }
