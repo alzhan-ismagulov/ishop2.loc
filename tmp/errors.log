@@ -324,3 +324,17 @@
 =================
 [2020-05-03 17:31:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-05-03 18:30:52] Текст ошибки: syntax error, unexpected '<', expecting end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Product\view.php | Строка: 57
+=================
+[2020-05-03 18:31:20] Текст ошибки: Class 'shop\App' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Product\view.php | Строка: 35
+=================
+[2020-05-03 18:31:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-03 18:31:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-03 18:31:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-04 14:39:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-04 14:44:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
