@@ -156,6 +156,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!--footer-end-->
+
+<?php $curr = \ishop\App::$app->getProperty('currency'); ?>
+<script>
+    var path = '<?=PATH;?>',
+        course = <?=$curr['value'];?>,
+        symboleLeft = '<?=$curr['symbol_left'];?>',
+        symboleRight = '<?=$curr['symbol_right'];?>';
+</script>
+
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/simpleCart.min.js"> </script>
 <!--dropdown-->
@@ -194,20 +203,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         });
     });
 </script>
-<script src="js/main.js"></script>
-<script src="megamenu/js/megamenu.js"></script>
-<script src="js/imagezoom.js"></script>
-<script defer src="js/jquery.flexslider.js"></script>
-<script>
-    // Can also be used with $(document).ready()
-    $(window).load(function() {
-        $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: "thumbnails"
-        });
-    });
-</script>
-<!--End-slider-script-->
 <script src="js/jquery.easydropdown.js"></script>
 <script type="text/javascript">
     $(function() {
@@ -231,13 +226,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     });
 </script>
+<script src="js/main.js"></script>
+<!--End-slider-script-->
 
 <?php
 $logs = \R::getDatabaseAdapter()
     ->getDatabase()
     ->getLogger();
 
-//debug( $logs->grep( 'SELECT' ) );
+debug( $logs->grep( 'SELECT' ) );
 ?>
 </body>
 </html>

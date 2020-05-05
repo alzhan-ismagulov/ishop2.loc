@@ -3,9 +3,9 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-<!--                <li><a href="index.html">Home</a></li>-->
-<!--                <li class="active">Single</li>-->
-                <?=$breadcrumbs; ?>
+                <!--<li><a href="index.html">Home</a></li>
+                <li class="active">Single</li>-->
+                <?=$breadcrumbs;?>
             </ol>
         </div>
     </div>
@@ -21,15 +21,15 @@
                         <?php if($gallery): ?>
                         <div class="flexslider">
                             <ul class="slides">
-                                <?php foreach ($gallery as $item): ?>
-                                <li data-thumb="images/<?=$item->img; ?>">
-                                    <div class="thumb-image"> <img src="images/<?=$item->img; ?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+                                <?php foreach($gallery as $item): ?>
+                                <li data-thumb="images/<?=$item->img;?>">
+                                    <div class="thumb-image"> <img src="images/<?=$item->img;?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
                                 </li>
                                 <?php endforeach; ?>
                             </ul>
                         </div>
                         <?php else: ?>
-                            <img src="images/<?=$product->img; ?>" alt="">
+                            <img src="images/<?=$product->img;?>" alt="">
                         <?php endif; ?>
                         <!-- FlexSlider -->
 
@@ -56,7 +56,7 @@
                                 <div class="clearfix"> </div>
                             </div>
 
-                            <h5 class="item_price"><?=$curr['symbol_left'];?><?=$product->price * $curr['value'];?><?=$curr['symbol_right'];?></h5>
+                            <h5 class="item_price" id="base-price" data-base="<?=$product->price * $curr['value'];?>"><?=$curr['symbol_left'];?><?=$product->price * $curr['value'];?><?=$curr['symbol_right'];?></h5>
                             <?php if($product->old_price): ?>
                                 <del><?=$curr['symbol_left'];?><?=$product->old_price * $curr['value'];?><?=$curr['symbol_right'];?></del>
                             <?php endif; ?>
@@ -65,18 +65,12 @@
                                 <ul>
                                     <li>Color
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
-                                        </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
-                                        </select></li>
+                                            <option>Выбрать цвет</option>
+                                            <?php foreach($mods as $mod): ?>
+                                            <option data-title="<?=$mod->title;?>" data-price="<?=$mod->price * $curr['value'];?>" value="<?=$mod->id;?>"><?=$mod->title;?></option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </li>
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>
@@ -163,7 +157,7 @@
                 <?php if($recentlyViewed): ?>
                     <div class="latestproducts">
                         <div class="product-one">
-                            <h3>Недавно просмотренные: </h3>
+                            <h3>Недавно просмотренные:</h3>
                             <?php foreach($recentlyViewed as $item): ?>
                                 <div class="col-md-4 product-left p-left">
                                     <div class="product-main simpleCart_shelfItem">
