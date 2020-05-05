@@ -11,8 +11,7 @@ class CartController extends AppController {
         $qty = !empty($_GET['qty']) ? (int)$_GET['qty'] : null;
         $mod_id = !empty($_GET['mod']) ? (int)$_GET['mod'] : null;
         $mod = null;
-        if($id)
-        {
+        if($id){
             $product = \R::findOne('product', 'id = ?', [$id]);
             if(!$product){
                 return false;
@@ -23,6 +22,22 @@ class CartController extends AppController {
         }
         $cart = new Cart();
         $cart->addToCart($product, $qty, $mod);
+        if($this->isAjax()){
+            $this->loadView('cart_modal');
+        }
+        redirect();
+    }
+
+    public function showAction(){
+        $this->loadView('cart_modal');
+    }
+
+    public function deleteAction(){
+        $id = !empty($_GET['id']) ? $_GET['id'] : null;
+        if(isset($_SESSION['cart'][$id])){
+            $cart = new Cart();
+            $cart->deleteItem($id);
+        }
         if($this->isAjax()){
             $this->loadView('cart_modal');
         }

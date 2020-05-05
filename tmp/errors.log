@@ -462,3 +462,15 @@
 =================
 [2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-05-06 01:35:22] Текст ошибки: syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php | Строка: 53
+=================
+[2020-05-06 01:35:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-06 01:36:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-06 01:36:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-06 01:54:56] Текст ошибки: Call to undefined method app\models\Cart::deleteItem() | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CartController.php | Строка: 39
+=================
+[2020-05-06 01:56:06] Текст ошибки: Call to undefined method app\models\Cart::deleteItem() | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CartController.php | Строка: 39
+=================
