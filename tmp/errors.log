@@ -444,3 +444,11 @@
 =================
 [2020-05-05 16:06:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-05-05 17:45:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-05 17:45:57] Текст ошибки: Class 'app\controllers\Cart' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CartController.php | Строка: 22
+=================
+[2020-05-05 18:41:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-05-05 18:42:57] Текст ошибки: syntax error, unexpected ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php | Строка: 94
+=================
