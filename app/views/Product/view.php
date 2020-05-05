@@ -61,7 +61,7 @@
                                 <del><?=$curr['symbol_left'];?><?=$product->old_price * $curr['value'];?><?=$curr['symbol_right'];?></del>
                             <?php endif; ?>
                             <?=$product->content;?>
-                            <?php if($mods) : ?>
+                            <?php if($mods): ?>
                             <div class="available">
                                 <ul>
                                     <li>Color

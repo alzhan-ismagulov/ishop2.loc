@@ -440,15 +440,25 @@
 =================
 [2017-08-24 11:32:20] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
-[2020-05-05 16:06:38] Текст ошибки: Нет соединения с БД | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Db.php | Строка: 14
+[2017-08-26 12:17:37] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
-[2020-05-05 16:06:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+[2017-08-26 12:17:38] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
-[2020-05-05 17:45:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+[2017-08-26 12:39:18] Текст ошибки: На найден вид D:\WebServer\domains\ishop2.loc/app/views/Cart/add.php | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
 =================
-[2020-05-05 17:45:57] Текст ошибки: Class 'app\controllers\Cart' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CartController.php | Строка: 22
+[2017-08-26 15:44:13] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
-[2020-05-05 18:41:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+[2017-08-26 15:44:13] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
-[2020-05-05 18:42:57] Текст ошибки: syntax error, unexpected ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php | Строка: 94
+[2017-08-26 16:05:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:05:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:05:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================

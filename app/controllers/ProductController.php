@@ -36,8 +36,6 @@ class ProductController extends AppController {
 
         // модификации
         $mods = \R::findAll('modification', 'product_id = ?', [$product->id]);
-//        $mods = \R::findAll('modification', 'product_id = ?', [$product->id]);
-//        debug($mods);
 
         $this->setMeta($product->title, $product->description, $product->keywords);
         $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs', 'mods'));
