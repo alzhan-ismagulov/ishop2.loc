@@ -2,8 +2,8 @@
 
 namespace app\controllers;
 
-class SearchController extends AppController
-{
+class SearchController extends AppController{
+
     public function typeaheadAction(){
         if($this->isAjax()){
             $query = !empty(trim($_GET['query'])) ? trim($_GET['query']) : null;
