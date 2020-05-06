@@ -488,3 +488,9 @@
 =================
 [2017-09-01 13:31:11] Текст ошибки: На найден вид D:\WebServer\domains\ishop2.loc/app/views/Category/view.php | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
 =================
+[2017-09-01 18:58:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-09-01 18:58:46] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2017-09-01 19:08:44] Текст ошибки: Контроллер app\controllers\UserController не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
