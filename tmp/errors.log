@@ -462,5 +462,9 @@
 =================
 [2017-08-26 16:06:48] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
-[2020-05-06 12:24:53] Текст ошибки: Нет соединения с БД | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Db.php | Строка: 14
+[2017-08-27 14:57:28] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2017-08-27 14:58:42] Текст ошибки: На найден вид D:\WebServer\domains\ishop2.loc/app/views/Search/typeahead.php | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2017-08-27 15:06:44] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 33
 =================
