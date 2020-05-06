@@ -500,3 +500,5 @@
 =================
 [2017-09-02 11:15:06] Текст ошибки: Страница не найдена | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2017-09-02 12:40:40] Текст ошибки: Метод app\controllers\CartController::viewAction не найден | Файл: D:\WebServer\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 33
+=================
