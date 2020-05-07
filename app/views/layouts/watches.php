@@ -205,6 +205,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 
+<div class="preloader"><img src="images/ring.svg" alt=""></div>
+
 <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
 <script>
     var path = '<?=PATH;?>',
