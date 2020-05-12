@@ -130,3 +130,9 @@
 =================
 [2020-05-10 03:19:45] Текст ошибки: Нет соединения с БД | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Db.php | Строка: 14
 =================
+[2020-05-12 18:59:03] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Order\index.php | Строка: 42
+=================
+[2020-05-12 19:00:22] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Order\index.php | Строка: 42
+=================
+[2020-05-12 19:03:28] Текст ошибки: Failed to authenticate on SMTP server with username "testishop2@ukr.net" using 2 possible authenticators | Файл: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 181
+=================
