@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'admin_email' => 'matroskin978@gmail.com',
+    'admin_email' => 'alzhan_ismagulov@list.ru',
     'shop_name' => 'Магазин ishop2.loc',
     'pagination' => 3,
-    'smtp_host' => 'smtp.ukr.net',
-    'smtp_port' => '2525',
+    'smtp_host' => 'smtp.mail.ru',
+    'smtp_port' => '25',
     'smtp_protocol' => 'ssl',
-    'smtp_login' => 'testishop2@ukr.net',
-    'smtp_password' => 'testishop_2',
+    'smtp_login' => 'alzhan_ismagulov@list.ru',
+    'smtp_password' => '20072012aA@',
 ];

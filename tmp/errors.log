@@ -136,3 +136,22 @@
 =================
 [2020-05-12 19:03:28] РўРµРєСЃС‚ РѕС€РёР±РєРё: Failed to authenticate on SMTP server with username "testishop2@ukr.net" using 2 possible authenticators | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | РЎС‚СЂРѕРєР°: 181
 =================
+[2020-05-13 02:29:18] РўРµРєСЃС‚ РѕС€РёР±РєРё: Failed to authenticate on SMTP server with username "alzhan_ismagulov@list.ru" using 3 possible authenticators | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | РЎС‚СЂРѕРєР°: 181
+=================
+[2020-05-13 02:29:18] РўРµРєСЃС‚ РѕС€РёР±РєРё: РЎС‚СЂР°РЅРёС†Р° РЅРµ РЅР°Р№РґРµРЅР° | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | РЎС‚СЂРѕРєР°: 39
+=================
+[2020-05-13 02:38:04] РўРµРєСЃС‚ РѕС€РёР±РєРё: Failed to authenticate on SMTP server with username "alzhan_ismagulov@list.ru" using 3 possible authenticators | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | РЎС‚СЂРѕРєР°: 181
+=================
+[2020-05-13 02:38:37] РўРµРєСЃС‚ РѕС€РёР±РєРё: Connection could not be established with host pop.mail.ru [Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ #10061] | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | РЎС‚СЂРѕРєР°: 268
+=================
+[2020-05-13 02:39:18] РўРµРєСЃС‚ РѕС€РёР±РєРё: Connection could not be established with host smtp.mail.ru [php_network_getaddresses: getaddrinfo failed: Этот хост неизвестен.  #0] | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | РЎС‚СЂРѕРєР°: 268
+=================
+[2020-05-13 02:39:30] РўРµРєСЃС‚ РѕС€РёР±РєРё: Connection could not be established with host smtp.mail.ru [php_network_getaddresses: getaddrinfo failed: Этот хост неизвестен.  #0] | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | РЎС‚СЂРѕРєР°: 268
+=================
+[2020-05-13 02:43:27] РўРµРєСЃС‚ РѕС€РёР±РєРё: Connection could not be established with host smtp.mail.ru [Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+ #10060] | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | РЎС‚СЂРѕРєР°: 268
+=================
+[2020-05-13 02:44:42] РўРµРєСЃС‚ РѕС€РёР±РєРё: Connection could not be established with host smtp.mail.ru [Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+ #10060] | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | РЎС‚СЂРѕРєР°: 268
+=================
