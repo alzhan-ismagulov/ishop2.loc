@@ -155,3 +155,13 @@
 [2020-05-13 02:44:42] РўРµРєСЃС‚ РѕС€РёР±РєРё: Connection could not be established with host smtp.mail.ru [Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
  #10060] | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | РЎС‚СЂРѕРєР°: 268
 =================
+[2020-05-14 14:46:55] РўРµРєСЃС‚ РѕС€РёР±РєРё: РљРѕРЅС‚СЂРѕР»Р»РµСЂ app\controllers\admin\CategoryController РЅРµ РЅР°Р№РґРµРЅ | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | РЎС‚СЂРѕРєР°: 36
+=================
+[2020-05-14 14:46:56] РўРµРєСЃС‚ РѕС€РёР±РєРё: РЎС‚СЂР°РЅРёС†Р° РЅРµ РЅР°Р№РґРµРЅР° | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | РЎС‚СЂРѕРєР°: 39
+=================
+[2020-05-14 14:47:02] РўРµРєСЃС‚ РѕС€РёР±РєРё: РљРѕРЅС‚СЂРѕР»Р»РµСЂ app\controllers\admin\CategoryController РЅРµ РЅР°Р№РґРµРЅ | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | РЎС‚СЂРѕРєР°: 36
+=================
+[2020-05-25 00:34:04] РўРµРєСЃС‚ РѕС€РёР±РєРё: РќРµС‚ СЃРѕРµРґРёРЅРµРЅРёСЏ СЃ Р‘Р” | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Db.php | РЎС‚СЂРѕРєР°: 14
+=================
+[2020-05-25 00:34:05] РўРµРєСЃС‚ РѕС€РёР±РєРё: РЎС‚СЂР°РЅРёС†Р° РЅРµ РЅР°Р№РґРµРЅР° | Р¤Р°Р№Р»: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | РЎС‚СЂРѕРєР°: 39
+=================

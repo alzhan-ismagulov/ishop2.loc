@@ -7,6 +7,6 @@ return [
     'smtp_host' => 'smtp.mail.ru',
     'smtp_port' => '25',
     'smtp_protocol' => 'ssl',
-    'smtp_login' => 'alzhan_ismagulov@list.ru',
-    'smtp_password' => '20072012aA@',
+    'smtp_login' => '',
+    'smtp_password' => '',
 ];
